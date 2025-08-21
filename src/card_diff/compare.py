@@ -246,3 +246,7 @@ def main():
             print(f"  {card}: {qty1}x in '{file1}', {qty2}x in '{file2}'")
     else:
         print("  None")
+
+
+if __name__ == "__main__":
+    main()
