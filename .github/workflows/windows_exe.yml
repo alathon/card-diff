@@ -48,6 +48,8 @@ jobs:
           path: dist/*
 
   release:
+    permissions:
+      contents: write
     needs: build
     runs-on: ubuntu-latest
 
