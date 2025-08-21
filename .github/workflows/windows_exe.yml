@@ -24,7 +24,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Build executable
-        run: pyinstaller --onefile src/compare.py
+        run: pyinstaller --onefile src/card_diff/compare.py
 
       - name: Rename executable
         run: |
